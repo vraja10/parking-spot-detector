@@ -1,10 +1,8 @@
-# parking-spot-detector
 # Parking Spot Detector and Counter 🚗
 
 A computer vision project that analyzes parking-area video footage to identify parking spaces and classify them as **occupied or vacant**. The project uses Python, OpenCV, and a trained machine learning model to process parking-space regions.
 
 ## 📌 Project Overview
-
 Finding available parking spaces can be time-consuming in busy parking areas. This project explores an automated approach to parking-space monitoring using video frames, predefined parking-space regions, and machine learning classification.
 
 The system processes a parking video, examines individual parking spaces, and uses a trained classifier to help determine their occupancy status.
@@ -188,3 +186,10 @@ The objective of this project is to demonstrate how computer vision and machine 
 
 
 
+
+## Parking Detection Output
+
+The system detects parking spaces using computer vision.
+Green boxes indicate available parking spaces, while red boxes indicate occupied spaces.
+
+![Parking Detection Output](parking-detection-output.png)
