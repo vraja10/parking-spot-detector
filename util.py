@@ -1,4 +1,4 @@
-import pickle
+﻿import pickle
 
 from skimage.transform import resize
 import numpy as np
@@ -8,7 +8,7 @@ import cv2
 EMPTY = True
 NOT_EMPTY = False
 
-MODEL = pickle.load(open("./model/model2.p", "rb"))
+MODEL = pickle.load(open("./model/model.p", "rb"))
 
 
 def empty_or_not(spot_bgr):
@@ -65,5 +65,6 @@ def get_parking_spots_bboxes(connected_components):
 # we create a list that returns the bounding boxes of parking spaces 
 # (in the format [x1, y1, w, h]). these bounding boxes represent 
 # the location and size of each parking space.
+
 
 
